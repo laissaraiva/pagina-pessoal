@@ -29,7 +29,7 @@
         <div class="content">
             <p class="saudacao">Olá, <?php echo $nome_visitante; ?>! Bem-vindo(a) à minha página.</p>
             <div class="profile-picture-container">
-                <img src="assets/IMG_3042_" alt="Foto de perfil de Lais" class="profile-picture">">
+                <img src="assets/IMG_3042.JPG_" alt="Foto de perfil de Lais" class="profile-picture">">
 
             <section id="sobre-mim">
                 <h2>Sobre Mim</h2>
@@ -48,9 +48,9 @@
             <section id="contato">
                 <h2>Contato</h2>
                 <div class="social-buttons">
-                    <a href="[SEU LINK DO LINKEDIN]" target="_blank" class="button linkedin">LinkedIn</a>
-                    <a href="[SEU LINK DO GITHUB]" target="_blank" class="button github">GitHub</a>
-                    <a href="mailto:[SEU-LOGIN]@cin.ufpe.br" class="button email">E-mail</a>
+                    <a href="https://www.linkedin.com/in/la%C3%ADs-saraiva-b35b9b377/" target="_blank" class="button linkedin">LinkedIn</a>
+                    <a href="https://github.com/laissaraiva" target="_blank" class="button github">GitHub</a>
+                    <a href="mailto:lspc@cin.ufpe.br" class="button email">E-mail</a>
                 </div>
             </section>
         </div>
