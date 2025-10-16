@@ -120,4 +120,5 @@ footer {
     object-fit: cover; /* Garante que a foto não fique distorcida, mesmo se não for quadrada */
     border: 4px solid #fff; /* Adiciona uma pequena borda branca */
     box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra sutil para dar profundidade */
+    object-position: 50% 30%;
 }
