@@ -21,17 +21,19 @@
         <div class="header-content">
             <img src="assets/logo-cin.png" alt="Logo do CIn-UFPE">
             
-            <h1>[Seu Nome Completo]</h1>
+            <h1>Laís Saraiva</h1>
         </div>
     </header>
 
     <div class="container">
         <div class="content">
             <p class="saudacao">Olá, <?php echo $nome_visitante; ?>! Bem-vindo(a) à minha página.</p>
+            <div class="profile-picture-container">
+                <img src="assets/IMG_3042_" alt="Foto de perfil de Lais" class="profile-picture">">
 
             <section id="sobre-mim">
                 <h2>Sobre Mim</h2>
-                <p>Sou estudante de [Seu Curso] no Centro de Informática (CIn) da UFPE. Estou no [Seu Período]º período e tenho grande interesse por [Sua Área de Interesse].</p>
+                <p>Sou estudante de Sistemas de Informação no Centro de Informática (CIn) da UFPE. Estou no 2º período e tenho grande interesse por Desenvolvimento Web, Desing e Dados.</p>
             </section>
 
             <section id="interesses">
@@ -55,7 +57,7 @@
     </div>
 
     <footer>
-        <p>Página criada para a disciplina de [Nome da Disciplina] - &copy; <?php echo date("Y"); ?></p>
+        <p>Página criada para a disciplina de Desenvolvimento de Software - &copy; <?php echo date("Y"); ?></p>
     </footer>
 
 </body>
