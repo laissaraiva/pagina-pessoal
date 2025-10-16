@@ -5,14 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Pessoal de [Seu Nome]</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-
 </head>
 <body>
 
     <?php
-        // 2 - USANDO UM RECURSO DO PHP ($_GET)
-        // Verificamos se um 'nome' foi passado na URL. Ex: ?nome=Maria
-        // A função htmlspecialchars() é uma medida de segurança para evitar ataques XSS.
+        // Bloco PHP para saudação
         if (isset($_GET['nome'])) {
             $nome_visitante = htmlspecialchars($_GET['nome']);
         } else {
@@ -21,41 +18,44 @@
     ?>
 
     <header>
-        <h1>Bem-vindo(a) à minha página, <?php echo $nome_visitante; ?>!</h1>
+        <div class="header-content">
+            <img src="assets/logo-cin.png" alt="Logo do CIn-UFPE">
+            
+            <h1>[Seu Nome Completo]</h1>
+        </div>
     </header>
 
     <div class="container">
         <div class="content">
+            <p class="saudacao">Olá, <?php echo $nome_visitante; ?>! Bem-vindo(a) à minha página.</p>
+
             <section id="sobre-mim">
                 <h2>Sobre Mim</h2>
-                <p>Olá! Meu nome é Laís Saraiva, sou estudante de Sistemas de Informação no Centro de Informática (CIn) da UFPE.</p>
-                <p>Estou no 2º período e tenho grande interesse por Desenvolvimento Web, Inteligência Artificial, Desing e Dados.</p>
+                <p>Sou estudante de [Seu Curso] no Centro de Informática (CIn) da UFPE. Estou no [Seu Período]º período e tenho grande interesse por [Sua Área de Interesse].</p>
             </section>
 
             <section id="interesses">
                 <h2>Meus Interesses</h2>
                 <ul>
-                    <li> Interesse 1 (ex: Programação em Python)</li>
-                    <li> Interesse 2 (ex: Design de Interfaces)</li>
-                    <li> Interesse 3 (ex: Análise de Dados)</li>
-                    <li> Interesse 4 (ex: Gatos, cachorros ou outro hobby)</li>
+                    <li>Interesse 1 (ex: Programação em Python)</li>
+                    <li>Interesse 2 (ex: Design de Interfaces)</li>
+                    <li>Interesse 3 (ex: Análise de Dados)</li>
                 </ul>
             </section>
 
             <section id="contato">
                 <h2>Contato</h2>
-                <p>Você pode me encontrar nas seguintes redes:</p>
-                <ul>
-                    <li><strong>E-mail:</strong> lspc@cin.ufpe.br</li>
-                    <li><strong>LinkedIn:</strong> (link para seu perfil)</li>
-                    <li><strong>GitHub:</strong> (link para seu perfil)</li>
-                </ul>
+                <div class="social-buttons">
+                    <a href="[SEU LINK DO LINKEDIN]" target="_blank" class="button linkedin">LinkedIn</a>
+                    <a href="[SEU LINK DO GITHUB]" target="_blank" class="button github">GitHub</a>
+                    <a href="mailto:[SEU-LOGIN]@cin.ufpe.br" class="button email">E-mail</a>
+                </div>
             </section>
         </div>
     </div>
 
     <footer>
-        <p>Página criada para a disciplina de Desenvolvimento de Software - &copy; <?php echo date("Y"); ?></p>
+        <p>Página criada para a disciplina de [Nome da Disciplina] - &copy; <?php echo date("Y"); ?></p>
     </footer>
 
 </body>

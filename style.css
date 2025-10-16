@@ -6,34 +6,99 @@ body {
     background-color: #f4f4f4;
     color: #333;
 }
+
 .container {
     width: 80%;
     margin: auto;
     overflow: hidden;
     padding: 20px;
 }
+
+
+
 header {
-    background: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
+    /* 3. Cor da barra de cima */
+    background: #ffffff; 
+    color: #333; /* Cor do texto escura */
+    padding: 15px 10%; /* Adiciona padding nas laterais */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra sutil */
+    width: 100%;
+    box-sizing: border-box; /* Garante que o padding não aumente a largura total */
 }
+
+.header-content {
+    display: flex; /* Alinha itens lado a lado */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+/* 1. Estilo para a LOGO */
+header img {
+    height: 45px; /* Altura da logo */
+    margin-right: 20px; /* Espaço entre a logo e o nome */
+}
+
+/* 2. Estilo para o NOME */
 header h1 {
     margin: 0;
+    font-size: 1.8em;
 }
+
 .content {
     background: #fff;
     padding: 20px;
     border-radius: 5px;
     margin-top: 20px;
 }
+
+.saudacao {
+    text-align: center;
+    font-size: 1.2em;
+    color: #555;
+}
+
 ul {
     list-style: none;
     padding: 0;
 }
+
 ul li {
     padding: 5px 0;
 }
+
+/* ===== 4. ESTILOS PARA OS BOTÕES ===== */
+.social-buttons {
+    text-align: center; /* Centraliza a div dos botões */
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 25px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: transform 0.2s ease;
+}
+
+.button:hover {
+    transform: scale(1.05); /* Efeito de leve aumento ao passar o mouse */
+}
+
+/* Cores específicas para cada botão */
+.button.linkedin {
+    background-color: #0077b5;
+}
+
+.button.github {
+    background-color: #333;
+}
+
+.button.email {
+    background-color: #d44638;
+}
+
 footer {
     text-align: center;
     padding: 20px;
