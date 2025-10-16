@@ -29,7 +29,7 @@
         <div class="content">
             <p class="saudacao">Olá, <?php echo $nome_visitante; ?>! Bem-vindo(a) à minha página.</p>
             <div class="profile-picture-container">
-                <img src="assets/IMG_3042.JPG_" alt="Foto de perfil de Lais" class="profile-picture">">
+                <img src="assets/foto-lais.JPG" alt="Foto de perfil de Lais" class="profile-picture">
 
             <section id="sobre-mim">
                 <h2>Sobre Mim</h2>
@@ -39,9 +39,9 @@
             <section id="interesses">
                 <h2>Meus Interesses</h2>
                 <ul>
-                    <li>Interesse 1 (ex: Programação em Python)</li>
-                    <li>Interesse 2 (ex: Design de Interfaces)</li>
-                    <li>Interesse 3 (ex: Análise de Dados)</li>
+                    <li>Desenvolvimento Web</li>
+                    <li>Design de Interfaces</li>
+                    <li>Análise de Dados</li>
                 </ul>
             </section>
 
