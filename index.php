@@ -21,7 +21,7 @@
         <div class="header-content">
             <img src="assets/logo-cin.png" alt="Logo do CIn-UFPE">
             
-            <h1>Laís Saraiva</h1>
+            <h1>Laís Saraiva Peixoto Costa</h1>
         </div>
     </header>
 
@@ -33,7 +33,7 @@
 
             <section id="sobre-mim">
                 <h2>Sobre Mim</h2>
-                <p>Sou estudante de Sistemas de Informação no Centro de Informática (CIn) da UFPE. Estou no 2º período e tenho grande interesse por Desenvolvimento Web, Desing e Dados.</p>
+                <p>Sou estudante de Sistemas de Informação no Centro de Informática (CIn) da UFPE. Estou no 4º período e tenho grande interesse por UX/UI, Design de Interfaces, Análise de Dados, Desenvolvimento Web e Mobile.</p>
             </section>
 
             <section id="interesses">
@@ -50,7 +50,7 @@
                 <div class="social-buttons">
                     <a href="https://www.linkedin.com/in/la%C3%ADs-saraiva-b35b9b377/" target="_blank" class="button linkedin">LinkedIn</a>
                     <a href="https://github.com/laissaraiva" target="_blank" class="button github">GitHub</a>
-                    <a href="mailto:lspc@cin.ufpe.br" class="button email">E-mail</a>
+                    <a href="mailto:lsaraiva1305@gmail.com" class="button email">E-mail</a>
                 </div>
             </section>
         </div>
